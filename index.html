@@ -1,511 +1,125 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<!doctype html>
+<html lang=ar dir=rtl>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>الملف التعريفي المهني - عبدالرحمن جمال بكر</title>
-    
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏢</text></svg>">
-    
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            darkMode: 'class',
-            theme: {
-                extend: {
-                    colors: {
-                        'primary': '#1d4ed8', // Professional Blue for Corporate/Real Estate
-                        'primary-dark': '#2563eb',
-                        'neutral-bg': '#f9fafb',
-                        'neutral-bg-dark': '#111827',
-                        'card-bg': '#ffffff',
-                        'card-bg-dark': '#1f2937',
-                        'text-main': '#1f2937',
-                        'text-main-dark': '#f9fafb',
-                        'text-muted': '#6b7280',
-                        'text-muted-dark': '#9ca3af',
-                        'border-light': '#e5e7eb',
-                        'border-dark': '#374151',
-                    },
-                    fontFamily: {
-                        'sans': ['Cairo', 'sans-serif'],
-                    },
-                    boxShadow: {
-                        'soft': '0 4px 6px -1px rgb(0 0 0 / 0.05), 0 2px 4px -2px rgb(0 0 0 / 0.05)',
-                    }
-                }
-            }
-        }
-    </script>
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
-
-    <style>
-        body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
-        @media print {
-            body { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
-            .no-print { display: none !important; }
-            main, .report-section { box-shadow: none !important; border: 1px solid #e5e7eb !important; page-break-inside: avoid; }
-            body > div, main { padding: 0 !important; margin: 0 !important; max-width: 100% !important; }
-        }
-        @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
-        .fade-in { animation: fadeIn 0.5s ease-out forwards; }
-        .fade-in-delay-1 { animation-delay: 0.1s; } .fade-in-delay-2 { animation-delay: 0.2s; }
-        .fade-in-delay-3 { animation-delay: 0.3s; } .fade-in-delay-4 { animation-delay: 0.4s; }
-        .fade-in-delay-5 { animation-delay: 0.5s; }
-        .skill-list { list-style-type: '✓ '; padding-inline-start: 1.5rem; }
-        .strengths-list { list-style-type: '✅ '; padding-inline-start: 1.5rem; }
-    </style>
+<meta charset=UTF-8>
+<meta name=viewport content="width=device-width,initial-scale=1">
+<title>الملف التعريفي المهني - عبدالرحمن جمال بكر</title>
+<link rel=icon href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏢</text></svg>">
+<script src=https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js></script>
+<script src=https://cdn.tailwindcss.com></script>
+<script>tailwind.config={darkMode:"class",theme:{extend:{colors:{primary:"#1d4ed8","primary-dark":"#2563eb","neutral-bg":"#f9fafb","neutral-bg-dark":"#111827","card-bg":"#ffffff","card-bg-dark":"#1f2937","text-main":"#1f2937","text-main-dark":"#f9fafb","text-muted":"#6b7280","text-muted-dark":"#9ca3af","border-light":"#e5e7eb","border-dark":"#374151"},fontFamily:{sans:["Cairo","sans-serif"]},boxShadow:{soft:"0 4px 6px -1px rgb(0 0 0 / 0.05), 0 2px 4px -2px rgb(0 0 0 / 0.05)"}}}}</script>
+<link rel=preconnect href=https://fonts.googleapis.com>
+<link rel=preconnect href=https://fonts.gstatic.com crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel=stylesheet>
+<style>body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}@media print{body{-webkit-print-color-adjust:exact!important;print-color-adjust:exact!important}.no-print{display:none!important}.report-section,main{box-shadow:none!important;border:1px solid #e5e7eb!important;page-break-inside:avoid}body>div,main{padding:0!important;margin:0!important;max-width:100%!important}}@keyframes fadeIn{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:translateY(0)}}.fade-in{animation:fadeIn .5s ease-out forwards}.fade-in-delay-1{animation-delay:.1s}.fade-in-delay-2{animation-delay:.2s}.fade-in-delay-3{animation-delay:.3s}.fade-in-delay-4{animation-delay:.4s}.fade-in-delay-5{animation-delay:.5s}.skill-list{list-style-type:'✓ ';padding-inline-start:1.5rem}.strengths-list{list-style-type:'✅ ';padding-inline-start:1.5rem}</style>
 </head>
-
 <body class="font-sans bg-neutral-bg dark:bg-neutral-bg-dark text-text-main dark:text-text-main-dark transition-colors duration-300">
-
-    <div class="container mx-auto p-4 md:p-6 lg:p-8">
-        
-        <header class="no-print mb-6 flex items-center justify-between">
-            <h1 id="report-title-header" class="text-xl font-bold text-primary"></h1>
-            <div class="flex items-center space-x-2 rtl:space-x-reverse">
-                <button id="print-btn" aria-label="Print Profile" class="p-2 rounded-md hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M6.72 13.829c-.24.03-.48.062-.72.096m.72-.096a42.415 42.415 0 0 1 10.56 0m-10.56 0L6.34 18m10.94-4.171c.24.03.48.062.72.096m-.72-.096L17.66 18m0 0 .229 2.523a1.125 1.125 0 0 1-1.12 1.227H7.231c-.662 0-1.18-.568-1.12-1.227L6.34 18m11.32 0c0-1.24-.282-2.433-.829-3.502M6.34 18c0-1.24.282-2.433.829-3.502m0 0a3 3 0 0 1-1.01-2.097V6.75a3 3 0 0 1 3-3h5.25a3 3 0 0 1 3 3v2.152c0 .839-.23 1.655-.658 2.351m-8.182 0a3 3 0 0 0 1.01 2.097" /></svg>
-                </button>
-                <button id="theme-toggle-btn" aria-label="Toggle Dark Mode" class="p-2 rounded-md hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors">
-                    <svg id="theme-icon-light" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6"><path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" /></svg>
-                    <svg id="theme-icon-dark" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 hidden"><path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" /></svg>
-                </button>
-                <button id="lang-toggle-btn" class="px-3 py-2 text-sm font-semibold rounded-md hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"></button>
-            </div>
-        </header>
-
-        <main>
-            <!-- SECTION 1: PERSONAL INFO -->
-            <section class="report-section fade-in bg-card-bg dark:bg-card-bg-dark p-6 rounded-xl shadow-soft flex flex-col md:flex-row items-center gap-6">
-                <img id="employee-photo" src="" alt="Profile Photo" class="w-28 h-28 rounded-full object-cover border-4 border-gray-200 dark:border-gray-600">
-                <div class="flex-1 text-center md:text-start rtl:md:text-right">
-                    <h2 id="employee-name" class="text-3xl font-bold text-primary"></h2>
-                    <p id="employee-title-dept" class="mt-1 text-lg text-text-muted dark:text-text-muted-dark"></p>
-                    <p id="employee-nationality" class="mt-1 text-text-muted dark:text-text-muted-dark"></p>
-                </div>
-                <div class="text-center md:text-end rtl:md:text-left border-t-2 md:border-t-0 md:border-s-2 rtl:md:border-s-0 rtl:md:border-e-2 border-dashed border-gray-300 dark:border-gray-600 pt-4 md:pt-0 md:ps-6 rtl:md:ps-0 rtl:md:pe-6">
-                    <p id="contact-info-label" class="font-semibold"></p>
-                    <p id="employee-email" class="text-base"></p>
-                    <p id="employee-phone" class="text-base text-text-muted dark:text-text-muted-dark"></p>
-                </div>
-            </section>
-            
-            <!-- SECTION 2: CORE COMPETENCIES (KPIs) -->
-            <section class="mt-8">
-                <h3 id="kpi-dashboard-title" class="text-2xl font-bold mb-4"></h3>
-                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 md:gap-6">
-                    <!-- KPI Cards injected here -->
-                </div>
-            </section>
-
-            <!-- SECTION 3: PROFESSIONAL VISUALIZATIONS -->
-            <section class="mt-8">
-                <h3 id="visualizations-title" class="text-2xl font-bold mb-4"></h3>
-                <div class="grid grid-cols-1 lg:grid-cols-5 gap-6">
-                    <div class="report-section fade-in fade-in-delay-3 lg:col-span-3 bg-card-bg dark:bg-card-bg-dark p-6 rounded-xl shadow-soft">
-                        <h4 id="experience-breakdown-chart-title" class="text-lg font-semibold mb-4"></h4>
-                        <div class="h-80"><canvas id="experienceBreakdownChart"></canvas></div>
-                    </div>
-                    <div class="report-section fade-in fade-in-delay-4 lg:col-span-2 bg-card-bg dark:bg-card-bg-dark p-6 rounded-xl shadow-soft">
-                        <h4 id="skill-distribution-chart-title" class="text-lg font-semibold mb-4"></h4>
-                        <div class="h-80 flex items-center justify-center"><canvas id="skillDistributionChart"></canvas></div>
-                    </div>
-                    <div class="report-section fade-in fade-in-delay-5 lg:col-span-5 bg-card-bg dark:bg-card-bg-dark p-6 rounded-xl shadow-soft mt-6">
-                        <h4 id="career-progression-chart-title" class="text-lg font-semibold mb-4"></h4>
-                        <div class="h-80"><canvas id="careerProgressionChart"></canvas></div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- SECTION 4: PROFESSIONAL EXPERIENCE TABLE -->
-            <section class="report-section fade-in fade-in-delay-5 mt-8 bg-card-bg dark:bg-card-bg-dark p-6 rounded-xl shadow-soft">
-                <div class="flex flex-col md:flex-row justify-between items-center mb-4 gap-4">
-                    <h3 id="activities-title" class="text-2xl font-bold"></h3>
-                </div>
-                <div class="overflow-x-auto">
-                    <table class="w-full text-sm text-left rtl:text-right text-text-muted dark:text-text-muted-dark">
-                        <thead class="text-xs uppercase bg-gray-50 dark:bg-gray-700"><tr></tr></thead>
-                        <tbody id="activities-table-body"></tbody>
-                    </table>
-                </div>
-            </section>
-            
-            <!-- SECTION 5: SUMMARY & SKILLS -->
-            <section class="report-section fade-in fade-in-delay-5 mt-8 bg-card-bg dark:bg-card-bg-dark p-6 rounded-xl shadow-soft">
-                <h3 id="insights-title" class="text-2xl font-bold mb-4"></h3>
-                <div class="space-y-6">
-                    <div>
-                        <h4 id="insights-summary-title" class="text-lg font-semibold text-primary mb-2"></h4>
-                        <p id="insights-summary-content" class="text-text-muted dark:text-text-muted-dark leading-relaxed"></p>
-                    </div>
-                    <div>
-                        <h4 id="insights-vision-title" class="text-lg font-semibold text-primary mb-2"></h4>
-                        <p id="insights-vision-content" class="text-text-muted dark:text-text-muted-dark leading-relaxed"></p>
-                    </div>
-                    <div>
-                        <h4 id="insights-skills-title" class="text-lg font-semibold text-primary mb-2"></h4>
-                        <div id="insights-skills-content" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-8 text-text-muted dark:text-text-muted-dark">
-                            <!-- Skill categories will be injected here -->
-                        </div>
-                    </div>
-                </div>
-            </section>
-            
-            <!-- SECTION 6: QR CODE SECTION -->
-            <section id="qr-code-section" class="report-section fade-in fade-in-delay-5 mt-8 bg-card-bg dark:bg-card-bg-dark p-6 rounded-xl shadow-soft">
-                <div class="flex flex-col md:flex-row items-center gap-6">
-                    <img id="qr-code-img" src="" class="w-32 h-32 rounded-lg shadow-sm flex-shrink-0" alt="QR Code" />
-                    <div class="text-center md:text-start rtl:md:text-right">
-                        <h4 id="qr-section-title" class="text-lg font-semibold text-primary mb-2"></h4>
-                        <p id="qr-code-caption" class="text-text-muted dark:text-text-muted-dark leading-relaxed"></p>
-                    </div>
-                </div>
-            </section>
-
-            <!-- SECTION 7: STRENGTHS & VALUE -->
-            <section id="strengths-section" class="report-section fade-in fade-in-delay-5 mt-8 bg-card-bg dark:bg-card-bg-dark p-6 rounded-xl shadow-soft">
-                <div class="space-y-6">
-                    <div>
-                        <h4 id="strengths-title" class="text-lg font-semibold text-primary mb-3"></h4>
-                        <ul id="strengths-list" class="space-y-2 text-text-muted dark:text-text-muted-dark leading-relaxed"></ul>
-                    </div>
-                     <div>
-                        <h4 id="value-title" class="text-lg font-semibold text-primary mb-2"></h4>
-                        <p id="value-content" class="text-text-muted dark:text-text-muted-dark leading-relaxed"></p>
-                    </div>
-                </div>
-            </section>
-        </main>
-        
-        <footer class="text-center text-xs text-text-muted dark:text-text-muted-dark mt-8 no-print">
-            <p id="footer-text"></p>
-        </footer>
-    </div>
-
-<script>
-document.addEventListener('DOMContentLoaded', () => {
-    // =================================================================================
-    // DATA STORE
-    // =================================================================================
-    const profileData = {
-        personalInfo: {
-            fullName: { ar: 'عبدالرحمن جمال بكر', en: 'Abdulrahman Jamal Bakr' },
-            jobTitle: { ar: 'مدير تسويق ومبيعات عقاري', en: 'Real Estate Marketing & Sales Manager' },
-            department: { ar: 'التسويق وتطوير الأعمال', en: 'Marketing & Business Development' },
-            nationality: { ar: 'سعودي', en: 'Saudi' },
-            email: 'meyou197090@gmail.com',
-            phone: '0566654503 / 0569833906',
-            photoUrl: 'https://i.postimg.cc/ZK0P235K/image.jpg'
-        },
-        coreCompetencies: [
-            { id: 'experience', label: { ar: 'سنوات الخبرة', en: 'Years of Experience' }, value: '7+', format: 'string' },
-            { id: 'qualification', label: { ar: 'المؤهل الأكاديمي', en: 'Academic Qualification' }, value: 'MBA', format: 'string' },
-            { id: 'project_mgmt', label: { ar: 'إدارة المشاريع', en: 'Project Management' }, value: {ar: 'البيع عالخارطة', en: 'Off-plan Sales'}, format: 'string' },
-            { id: 'leadership', label: { ar: 'قيادة الفرق', en: 'Team Leadership' }, value: {ar: '3+ فرق', en: '3+ Teams'}, format: 'string' },
-            { id: 'relations', label: { ar: 'علاقات الملاك والعملاء', en: 'Owner & Client Relations' }, value: {ar: 'إدارة متكاملة', en: 'Integrated Management'}, format: 'string' },
-            { id: 'finance', label: { ar: 'الجهات التمويلية', en: 'Financing Entities' }, value: {ar: 'تنسيق وتفاوض', en: 'Coordination & Negotiation'}, format: 'string' }
-        ],
-        charts: {
-            experienceBreakdown: {
-                labels: { 
-                    ar: [['التفاوض وإغلاق', 'الصفقات'], 'التسويق العقاري', 'إدارة علاقات العملاء', 'تنسيق التمويل', 'التحليل السوقي'], 
-                    en: [['Negotiation &', 'Closing'], 'Real Estate Marketing', 'CRM', 'Financing Coordination', 'Market Analysis'] 
-                },
-                data: [98, 97, 96, 95, 94]
-            },
-            skillDistribution: {
-                labels: { ar: ['تسويق ميداني', 'عناية الملاك', 'خدمة العملاء', 'تنسيق تمويل', 'استشارات مبيعات'], en: ['Field Marketing', 'Owner Care', 'Customer Service', 'Financing Coordination', 'Sales Consulting'] },
-                data: [40, 25, 15, 10, 10],
-                colors: ['#1d4ed8', '#16a34a', '#f59e0b', '#ef4444', '#6b7280']
-            },
-            careerProgression: {
-                labels: { 
-                    ar: [['سبتمبر 2018 -', 'بداية إدارية'], ['أكتوبر 2020 -', 'تعدد مهام'], '2022 - ماجستير أعمال', ['فبراير 2025 -', 'تخصص مبيعات'], ['الآن -', 'خبرة موسعة']], 
-                    en: [['Sep 2018 -', 'Admin Start'], ['Oct 2020 -', 'Multi-role Mgmt'], '2022 - MBA', ['Feb 2025 -', 'Sales Specialization'], ['Now -', 'Expanded Expertise']] 
-                },
-                data: [50, 70, 90, 95, 98]
-            }
-        },
-        professionalExperience: [
-            {
-                company: { ar: 'شركة ليدار العقارية', en: 'Ledar Real Estate Co.' },
-                period: { 
-                    start: { ar: 'فبراير 2025', en: 'Feb 2025' },
-                    end: { ar: 'حتى الآن', en: 'Present' }
-                },
-                roles: [
-                    { title: { ar: 'استشاري مبيعات', en: 'Sales Consultant' }, tasks: { ar: 'تحليل احتياجات العملاء وتقديم حلول عقارية مناسبة، تنفيذ العروض التقديمية، ومتابعة كاملة لعملية البيع حتى الإغلاق.', en: 'Analyzing client needs and providing suitable real estate solutions, conducting presentations, and full follow-up of the sales process until closing.' } },
-                ]
-            },
-            {
-                company: { ar: 'شركة تيم 3 العقارية', en: 'Team 3 Real Estate Co.' },
-                period: {
-                    start: { ar: 'أكتوبر 2020', en: 'Oct 2020' },
-                    end: { ar: 'يناير 2025', en: 'Jan 2025' }
-                },
-                roles: [
-                    { 
-                        title: { ar: 'مدير التسويق الميداني', en: 'Field Marketing Manager' },
-                        tasks: { ar: 'تطوير وتنفيذ خطط تسويق ميدانية، إجراء تحليلات سوقية، قيادة وتنظيم حملات تسويقية وإدارة الميزانيات.', en: 'Developed and executed field marketing plans, conducted market analysis, led and organized marketing campaigns, and managed budgets.' } 
-                    },
-                    { 
-                        title: { ar: 'مدير عناية الملاك', en: 'Owner Care Manager' },
-                        tasks: { ar: 'إدارة علاقات الملاك وضمان تقديم دعم شامل، حل المشكلات والشكاوى، تطوير سياسات لتحسين تجربة الملاك.', en: 'Managed owner relations ensuring comprehensive support, resolved issues and complaints, and developed policies to enhance the owner experience.' } 
-                    },
-                    { 
-                        title: { ar: 'مدير خدمة العملاء', en: 'Customer Service Manager' },
-                        tasks: { ar: 'الإشراف على فريق خدمة العملاء وتوجيههم، تطوير وتطبيق إجراءات عمل لتحسين جودة الخدمة.', en: 'Supervised and guided the customer service team, and developed and implemented procedures to improve service quality.' } 
-                    },
-                    { 
-                        title: { ar: 'مسؤول الجهات التمويلية', en: 'Financing Entities Officer' },
-                        tasks: { ar: 'التنسيق والتفاوض مع الجهات التمويلية، الإشراف على عمليات التمويل لمشاريع البيع على الخارطة (مثل "مدينة الورد").', en: 'Coordinated and negotiated with financing entities, supervised financing operations for off-plan sales projects (e.g., "Madinat Al Ward").' } 
-                    }
-                ]
-            },
-            {
-                company: { ar: 'شركة أحمد العبيكان للاستثمار والتطوير العقاري', en: 'Ahmed Al Obaikan for Real Estate Investment & Development' },
-                period: {
-                    start: { ar: 'سبتمبر 2018', en: 'Sep 2018' },
-                    end: { ar: 'سبتمبر 2020', en: 'Sep 2020' }
-                },
-                roles: [
-                    { 
-                        title: { ar: 'إداري', en: 'Administrative Officer' },
-                        tasks: { ar: 'تنفيذ المهام الإدارية اليومية، التنسيق بين الأقسام، إعداد التقارير، وإدارة العمليات المكتبية لدعم فريق العمل.', en: 'Executing daily administrative tasks, coordinating between departments, preparing reports, and managing office operations to support the team.' } 
-                    }
-                ]
-            }
-        ],
-        summaryAndSkills: {
-            summary: { 
-                ar: 'مدير تسويق عقاري بخبرة تتجاوز سبع سنوات في القطاع العقاري، مع سجلٍّ مهني يضمّ مسؤوليات إدارية متقدّمة في قطاعات متعددة. حاصل على ماجستير مهني في إدارة الأعمال (2022)، ومتخصص في بناء الاستراتيجيات التسويقية، تحليل الأسواق، وتعزيز علاقات الملاك والعملاء. متمرّس في قيادة فرق متعددة التخصصات، والتفاوض مع الجهات التمويلية والحكومية، والتعامل باحترافية مع مختلف شرائح المجتمع لتحقيق نموٍّ مستدام وتعزيز ولاء العملاء. بارع في توظيف التقنيات الحديثة وتحويل التحديات إلى فرص ترتقي بكفاءة العمليات وترسّخ المكانة التنافسية للمؤسسة.', 
-                en: 'Real estate marketing manager with over seven years of experience, holding a professional record of advanced managerial responsibilities in diverse sectors. With a Professional Master\'s in Business Administration (2022), specializes in building marketing strategies, market analysis, and strengthening owner & client relations. Experienced in leading multi-disciplinary teams, negotiating with financing and governmental entities, and engaging diverse community segments to achieve sustainable growth and customer loyalty. Adept at leveraging modern technologies and transforming challenges into opportunities to enhance operational efficiency and solidify the organization\'s competitive position.' 
-            },
-            vision: { ar: 'قيادي استراتيجي يركز على بناء وتطوير فرق عمل عالية الأداء، مع القدرة على تحليل التحديات وتحويلها إلى فرص نمو. يسعى لتطبيق أفضل الممارسات في إدارة علاقات العملاء والملاك لتحقيق أعلى مستويات الرضا والولاء، مما يدعم النمو المستدام للشركة ويعزز مكانتها في السوق العقاري.', en: 'A strategic leader focused on building and developing high-performance teams, with the ability to analyze challenges and turn them into growth opportunities. Aims to implement best practices in customer and owner relationship management to achieve the highest levels of satisfaction and loyalty, supporting the company\'s sustainable growth and strengthening its market position.' },
-            skillsAndCourses: [
-                { category: { ar: 'دورات عقارية متخصصة', en: 'Specialized Real Estate Courses' }, items: { ar: ['التثمين العقاري', 'التسويق العقاري', 'التطوير العقاري', 'التمويل العقاري', 'الوعي بالسوق العقاري', 'اتحاد الملاك', 'صيانة المرافق'], en: ['Real Estate Appraisal', 'Real Estate Marketing', 'Real Estate Development', 'Real Estate Finance', 'Market Awareness', 'Owners Union', 'Facilities Maintenance'] } },
-                { category: { ar: 'دورات إدارية وتطويرية', en: 'Management & Development Courses' }, items: { ar: ['ماجستير إدارة الأعمال', 'إدارة الأداء الوظيفي', 'التخطيط التنفيذي', 'مهارات التفاوض الفعال', 'إدارة التغيير', '6 سيجما (الحزام الأصفر)', 'الإدارة الرشيقة'], en: ['MBA', 'Performance Management', 'Executive Planning', 'Effective Negotiation', 'Change Management', '6 Sigma (Yellow Belt)', 'Agile Management'] } },
-                { category: { ar: 'دورات عامة وداعمة', en: 'General & Supporting Courses' }, items: { ar: ['خدمة العملاء', 'إدارة المرافق', 'إعداد التقارير', 'الانتماء والولاء المؤسسي', 'مهارات بناء فريق العمل', 'إدارة الوقت', 'التسويق الإلكتروني'], en: ['Customer Service', 'Facility Management', 'Report Writing', 'Corporate Loyalty', 'Team Building Skills', 'Time Management', 'E-Marketing'] } },
-            ]
-        },
-        strengthsAndValue: {
-            strengthsTitle: { ar: 'نقاط القوة الرئيسية', en: 'Key Strengths' },
-            strengths: [
-                { ar: 'تطوير وتنفيذ استراتيجيات تسويق عقاري متكاملة.', en: 'Developing and implementing integrated real estate marketing strategies.' },
-                { ar: 'قيادة فرق العمل وتحفيزها لتحقيق الأهداف البيعية.', en: 'Leading and motivating teams to achieve sales targets.' },
-                { ar: 'بناء وإدارة علاقات طويلة الأمد مع العملاء والملاك والجهات التمويلية.', en: 'Building and managing long-term relationships with clients, owners, and financing entities.' },
-                { ar: 'مهارات تفاوض عالية لإغلاق الصفقات بنجاح.', en: 'High-level negotiation skills to successfully close deals.' },
-                { ar: 'تحليل دقيق للسوق لاتخاذ قرارات استراتيجية مدروسة.', en: 'Precise market analysis for making informed strategic decisions.' }
-            ],
-            valueTitle: { ar: 'القيمة المضافة', en: 'Added Value' },
-            valueText: { ar: 'تقديم قيمة مضافة من خلال دمج الخبرة الميدانية مع المعرفة الأكاديمية (ماجستير إدارة الأعمال) لتحقيق نمو مستدام وزيادة الحصة السوقية للشركة، مع ضمان أعلى مستويات الرضا للعملاء والملاك.', en: 'Providing added value by integrating field experience with academic knowledge (MBA) to achieve sustainable growth and increase the company\'s market share, while ensuring the highest levels of client and owner satisfaction.' }
-        },
-        qrCode: {
-            imageUrl: 'https://i.postimg.cc/W3wW6YQs/4096.png',
-            title: { ar: 'عرض تقديمي لأحد المشاريع', en: 'Presentation of a Key Project' },
-            caption: {
-                ar: 'امسح الرمز لمشاهدة لقطات مختارة من عرضي لأحد المشاريع ضمن مشاركتي في أكبر منتدى عقاري بمدينة الطائف.',
-                en: 'Scan the code to watch selected footage from my presentation of a project during the largest real estate forum in Taif.'
-            }
-        }
-    };
-    
-    // =================================================================================
-    // I18N TEXT STORE
-    // =================================================================================
-    const i18n = {
-        ar: {
-            reportTitleHeader: "الملف التعريفي المهني", contactInfoLabel: "معلومات التواصل", titleDeptSeparator: " | ",
-            kpiDashboardTitle: "الكفاءات الأساسية", visualizationsTitle: "نظرة تحليلية على الخبرات والمهارات",
-            experienceBreakdownChartTitle: "مجالات الخبرة الأساسية (تقييم ذاتي)",
-            skillDistributionChartTitle: "توزيع الخبرات المهنية",
-            careerProgressionChartTitle: "مسار التطور المهني",
-            careerProgressionYLabel: "مستوى الخبرة (تقديري)",
-            activitiesTitle: "الخبرة العملية",
-            activitiesTableHeaders: { period: "الفترة", company: "الشركة", role: "المنصب", tasks: "أبرز المهام" },
-            insightsTitle: "الملخص والمهارات", insightsSummaryTitle: "📄 الملخص المهني", insightsVisionTitle: "👁️ الرؤية القيادية والاستراتيجية",
-            insightsSkillsTitle: "💡 المهارات والدورات التدريبية", langToggle: "English", printBtnLabel: "طباعة / تصدير PDF",
-            footerText: `تم إنشاء هذا الملف التعريفي في ${new Date().toLocaleDateString('ar-SA-u-ca-gregory', { year: 'numeric', month: 'long', day: 'numeric' })}`
-        },
-        en: {
-            reportTitleHeader: "Professional Profile", contactInfoLabel: "Contact Information", titleDeptSeparator: " | ",
-            kpiDashboardTitle: "Core Competencies", visualizationsTitle: "Experience & Skills Analytics",
-            experienceBreakdownChartTitle: "Core Experience Areas (Self-Assessment)",
-            skillDistributionChartTitle: "Professional Experience Distribution",
-            careerProgressionChartTitle: "Career Progression Path",
-            careerProgressionYLabel: "Expertise Level (Est.)",
-            activitiesTitle: "Professional Experience",
-            activitiesTableHeaders: { period: "Period", company: "Company", role: "Role", tasks: "Key Responsibilities" },
-            insightsTitle: "Summary & Skills", insightsSummaryTitle: "📄 Professional Summary", insightsVisionTitle: "👁️ Leadership & Strategic Vision",
-            insightsSkillsTitle: "💡 Skills & Training Courses", langToggle: "العربية", printBtnLabel: "Print / Export PDF",
-            footerText: `Profile generated on ${new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}`
-        }
-    };
-
-    // =================================================================================
-    // SCRIPT (NO CHANGES NEEDED BELOW)
-    // =================================================================================
-    let state = { lang: 'ar', theme: localStorage.getItem('theme') || 'light' };
-    const dom = {
-        html: document.documentElement, themeToggleBtn: document.getElementById('theme-toggle-btn'),
-        themeIconLight: document.getElementById('theme-icon-light'), themeIconDark: document.getElementById('theme-icon-dark'),
-        langToggleBtn: document.getElementById('lang-toggle-btn'), printBtn: document.getElementById('print-btn'),
-        activitiesTableBody: document.getElementById('activities-table-body'),
-        activitiesThead: document.querySelector('thead tr')
-    };
-    let chartInstances = {};
-    const T = (key, scope) => {
-        if (scope) {
-            return scope[key] ? (scope[key][state.lang] || scope[key]) : key;
-        }
-        return i18n[state.lang][key] || key;
-    };
-    const renderHeader = () => {
-        document.getElementById('report-title-header').textContent = T('reportTitleHeader');
-        document.getElementById('employee-photo').src = profileData.personalInfo.photoUrl;
-        document.getElementById('employee-name').textContent = profileData.personalInfo.fullName[state.lang];
-        document.getElementById('employee-title-dept').textContent = `${profileData.personalInfo.jobTitle[state.lang]}${T('titleDeptSeparator')}${profileData.personalInfo.department[state.lang]}`;
-        document.getElementById('employee-nationality').textContent = profileData.personalInfo.nationality[state.lang];
-        document.getElementById('contact-info-label').textContent = T('contactInfoLabel');
-        document.getElementById('employee-email').textContent = profileData.personalInfo.email;
-        document.getElementById('employee-phone').textContent = profileData.personalInfo.phone;
-    };
-    const renderKPIs = () => {
-        const container = document.querySelector('.grid.grid-cols-2.md\\:grid-cols-3.lg\\:grid-cols-6');
-        container.innerHTML = '';
-        profileData.coreCompetencies.forEach((kpi, index) => {
-            const card = document.createElement('div');
-            card.className = `report-section fade-in fade-in-delay-${index} bg-card-bg dark:bg-card-bg-dark p-4 rounded-xl shadow-soft text-center flex flex-col justify-center`;
-            const label = document.createElement('p'); label.className = 'text-sm text-text-muted dark:text-text-muted-dark mb-2';
-            label.textContent = kpi.label[state.lang];
-            const value = document.createElement('p'); value.className = 'text-2xl md:text-3xl font-bold text-primary'; value.id = `kpi-value-${kpi.id}`;
-            const kpiValue = (typeof kpi.value === 'object' && kpi.value !== null) ? kpi.value[state.lang] : kpi.value;
-            value.textContent = kpiValue;
-            card.appendChild(label); card.appendChild(value);
-            container.appendChild(card);
-        });
-    };
-    const renderCharts = () => {
-        Chart.defaults.font.family = "'Cairo', sans-serif"; Chart.defaults.color = state.theme === 'dark' ? '#9ca3af' : '#6b7280';
-        Object.values(chartInstances).forEach(chart => chart.destroy());
-        const chartOptions = (rtl) => ({ responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'bottom', rtl: rtl }, tooltip: { rtl: rtl } } });
-        
-        const experienceCtx = document.getElementById('experienceBreakdownChart').getContext('2d');
-        chartInstances.experience = new Chart(experienceCtx, { type: 'bar', data: { labels: profileData.charts.experienceBreakdown.labels[state.lang], datasets: [{ label: T('experienceBreakdownChartTitle'), data: profileData.charts.experienceBreakdown.data, backgroundColor: '#1d4ed8', borderRadius: 4 }] }, options: { ...chartOptions(state.lang === 'ar'), indexAxis: 'y', scales: { y: { grid: { display: false } }, x: { beginAtZero: true, max:100, grid: { color: state.theme === 'dark' ? '#374151' : '#e5e7eb' } } }, plugins: { legend: { display: false }, tooltip: { rtl: state.lang === 'ar' } } } });
-
-        const skillCtx = document.getElementById('skillDistributionChart').getContext('2d');
-        chartInstances.skill = new Chart(skillCtx, { type: 'doughnut', data: { labels: profileData.charts.skillDistribution.labels[state.lang], datasets: [{ data: profileData.charts.skillDistribution.data, backgroundColor: profileData.charts.skillDistribution.colors, borderColor: state.theme === 'dark' ? '#1f2937' : '#ffffff', borderWidth: 4 }] }, options: { ...chartOptions(state.lang === 'ar'), cutout: '70%', plugins: { legend: { position: 'bottom', rtl: state.lang === 'ar', labels: { boxWidth: 15, padding: 15 } } } } });
-        
-        const progressionCtx = document.getElementById('careerProgressionChart').getContext('2d');
-        chartInstances.progression = new Chart(progressionCtx, { type: 'line', data: { labels: profileData.charts.careerProgression.labels[state.lang], datasets: [{ label: T('careerProgressionYLabel'), data: profileData.charts.careerProgression.data, borderColor: '#1d4ed8', backgroundColor: 'rgba(29, 78, 216, 0.1)', fill: true, tension: 0.4 }] }, options: { ...chartOptions(state.lang === 'ar'), scales: { y: { beginAtZero: false, grid: { color: state.theme === 'dark' ? '#374151' : '#e5e7eb' }, title: { display: true, text: T('careerProgressionYLabel') } }, x: { grid: { display: false } } }, plugins: { legend: { display: false }, tooltip: { rtl: state.lang === 'ar' } } } });
-    };
-    const renderActivitiesTable = () => {
-        const headers = T('activitiesTableHeaders');
-        dom.activitiesThead.innerHTML = '';
-        Object.values(headers).forEach(value => {
-            const th = document.createElement('th'); th.scope = 'col'; th.className = 'px-6 py-3';
-            th.textContent = value; dom.activitiesThead.appendChild(th);
-        });
-        dom.activitiesTableBody.innerHTML = '';
-        profileData.professionalExperience.forEach(exp => {
-            exp.roles.forEach((role, index) => {
-                const row = document.createElement('tr');
-                row.className = 'bg-card-bg dark:bg-card-bg-dark border-b dark:border-gray-700';
-
-                let periodCellHTML = '';
-                let companyCellHTML = '';
-
-                if (index === 0) { // Only for the first role in an experience block
-                    periodCellHTML = `<td class="px-6 py-4 font-semibold align-top whitespace-nowrap" rowspan="${exp.roles.length}">${exp.period.start[state.lang]} – ${exp.period.end[state.lang]}</td>`;
-                    companyCellHTML = `<td class="px-6 py-4 font-semibold align-top" rowspan="${exp.roles.length}">${exp.company[state.lang]}</td>`;
-                }
-
-                row.innerHTML = `
-                    ${periodCellHTML}
-                    ${companyCellHTML}
-                    <td class="px-6 py-4 font-medium">${role.title[state.lang]}</td>
-                    <td class="px-6 py-4">${role.tasks[state.lang]}</td>`;
-
-                dom.activitiesTableBody.appendChild(row);
-            });
-        });
-    };
-    const renderSummaryAndSkills = () => {
-        document.getElementById('insights-title').textContent = T('insightsTitle');
-        document.getElementById('insights-summary-title').textContent = T('insightsSummaryTitle');
-        document.getElementById('insights-summary-content').textContent = profileData.summaryAndSkills.summary[state.lang];
-        document.getElementById('insights-vision-title').textContent = T('insightsVisionTitle');
-        document.getElementById('insights-vision-content').textContent = profileData.summaryAndSkills.vision[state.lang];
-        document.getElementById('insights-skills-title').textContent = T('insightsSkillsTitle');
-        const skillsContainer = document.getElementById('insights-skills-content');
-        skillsContainer.innerHTML = '';
-        profileData.summaryAndSkills.skillsAndCourses.forEach(cat => {
-            const div = document.createElement('div');
-            const h5 = document.createElement('h5');
-            h5.className = 'font-bold mb-2 text-text-main dark:text-text-main-dark';
-            h5.textContent = cat.category[state.lang];
-            const ul = document.createElement('ul');
-            ul.className = 'space-y-1 skill-list';
-            cat.items[state.lang].forEach(item => {
-                const li = document.createElement('li');
-                li.textContent = item;
-                ul.appendChild(li);
-            });
-            div.appendChild(h5);
-            div.appendChild(ul);
-            skillsContainer.appendChild(div);
-        });
-    };
-    const renderQrSection = () => {
-        const data = profileData.qrCode;
-        document.getElementById('qr-code-img').src = data.imageUrl;
-        document.getElementById('qr-section-title').textContent = data.title[state.lang];
-        document.getElementById('qr-code-caption').textContent = data.caption[state.lang];
-    };
-    const renderStrengthsAndValue = () => {
-        const data = profileData.strengthsAndValue;
-        document.getElementById('strengths-title').textContent = data.strengthsTitle[state.lang];
-        const strengthsList = document.getElementById('strengths-list');
-        strengthsList.innerHTML = '';
-        strengthsList.className = state.lang === 'ar' ? 'space-y-2 strengths-list' : 'space-y-2 list-disc list-inside';
-        data.strengths.forEach(item => {
-            const li = document.createElement('li');
-            li.textContent = item[state.lang];
-            if (state.lang === 'ar') li.style.paddingRight = '1.5rem';
-            strengthsList.appendChild(li);
-        });
-
-        document.getElementById('value-title').textContent = data.valueTitle[state.lang];
-        document.getElementById('value-content').textContent = data.valueText[state.lang];
-    };
-    const renderTextContent = () => {
-        document.getElementById('kpi-dashboard-title').textContent = T('kpiDashboardTitle');
-        document.getElementById('visualizations-title').textContent = T('visualizationsTitle');
-        document.getElementById('experience-breakdown-chart-title').textContent = T('experienceBreakdownChartTitle');
-        document.getElementById('skill-distribution-chart-title').textContent = T('skillDistributionChartTitle');
-        document.getElementById('career-progression-chart-title').textContent = T('careerProgressionChartTitle');
-        document.getElementById('activities-title').textContent = T('activitiesTitle');
-        document.getElementById('footer-text').textContent = T('footerText');
-    };
-    const render = () => {
-        dom.html.lang = state.lang; dom.html.dir = state.lang === 'ar' ? 'rtl' : 'ltr';
-        dom.langToggleBtn.textContent = T('langToggle'); dom.printBtn.setAttribute('aria-label', T('printBtnLabel'));
-        renderHeader(); renderKPIs(); renderTextContent(); renderActivitiesTable(); renderSummaryAndSkills(); renderQrSection(); renderStrengthsAndValue(); renderCharts();
-    };
-    const updateTheme = () => {
-        if (state.theme === 'dark') { dom.html.classList.add('dark'); dom.themeIconLight.classList.add('hidden'); dom.themeIconDark.classList.remove('hidden'); }
-        else { dom.html.classList.remove('dark'); dom.themeIconLight.classList.remove('hidden'); dom.themeIconDark.classList.add('hidden'); }
-    };
-    dom.themeToggleBtn.addEventListener('click', () => { state.theme = state.theme === 'light' ? 'dark' : 'light'; localStorage.setItem('theme', state.theme); updateTheme(); renderCharts(); });
-    dom.langToggleBtn.addEventListener('click', () => { state.lang = state.lang === 'ar' ? 'en' : 'ar'; render(); });
-    dom.printBtn.addEventListener('click', () => { window.print(); });
-    updateTheme(); render();
-});
-</script>
+<div class="container mx-auto p-4 md:p-6 lg:p-8">
+<header class="no-print mb-6 flex items-center justify-between">
+<h1 id=report-title-header class="text-xl font-bold text-primary"></h1>
+<div class="flex items-center space-x-2 rtl:space-x-reverse">
+<button id=print-btn aria-label="Print Profile" class="p-2 rounded-md hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors">
+<svg xmlns=http://www.w3.org/2000/svg fill=none viewBox="0 0 24 24" stroke-width=1.5 stroke=currentColor class="w-6 h-6"><path stroke-linecap=round stroke-linejoin=round d="M6.72 13.829c-.24.03-.48.062-.72.096m.72-.096a42.415 42.415 0 0 1 10.56 0m-10.56 0L6.34 18m10.94-4.171c.24.03.48.062.72.096m-.72-.096L17.66 18m0 0 .229 2.523a1.125 1.125 0 0 1-1.12 1.227H7.231c-.662 0-1.18-.568-1.12-1.227L6.34 18m11.32 0c0-1.24-.282-2.433-.829-3.502M6.34 18c0-1.24.282-2.433.829-3.502m0 0a3 3 0 0 1-1.01-2.097V6.75a3 3 0 0 1 3-3h5.25a3 3 0 0 1 3 3v2.152c0 .839-.23 1.655-.658 2.351m-8.182 0a3 3 0 0 0 1.01 2.097"/></svg>
+</button>
+<button id=theme-toggle-btn aria-label="Toggle Dark Mode" class="p-2 rounded-md hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors">
+<svg id=theme-icon-light xmlns=http://www.w3.org/2000/svg fill=none viewBox="0 0 24 24" stroke-width=1.5 stroke=currentColor class="w-6 h-6"><path stroke-linecap=round stroke-linejoin=round d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z"/></svg>
+<svg id=theme-icon-dark xmlns=http://www.w3.org/2000/svg fill=none viewBox="0 0 24 24" stroke-width=1.5 stroke=currentColor class="w-6 h-6 hidden"><path stroke-linecap=round stroke-linejoin=round d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z"/></svg>
+</button>
+<button id=lang-toggle-btn class="px-3 py-2 text-sm font-semibold rounded-md hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors"></button>
+</div>
+</header>
+<main>
+<section class="report-section fade-in bg-card-bg dark:bg-card-bg-dark p-6 rounded-xl shadow-soft flex flex-col md:flex-row items-center gap-6">
+<img id=employee-photo src="" alt="Profile Photo" class="w-28 h-28 rounded-full object-cover border-4 border-gray-200 dark:border-gray-600">
+<div class="flex-1 text-center md:text-start rtl:md:text-right">
+<h2 id=employee-name class="text-3xl font-bold text-primary"></h2>
+<p id=employee-title-dept class="mt-1 text-lg text-text-muted dark:text-text-muted-dark"></p>
+<p id=employee-nationality class="mt-1 text-text-muted dark:text-text-muted-dark"></p>
+</div>
+<div class="text-center md:text-end rtl:md:text-left border-t-2 md:border-t-0 md:border-s-2 rtl:md:border-s-0 rtl:md:border-e-2 border-dashed border-gray-300 dark:border-gray-600 pt-4 md:pt-0 md:ps-6 rtl:md:ps-0 rtl:md:pe-6">
+<p id=contact-info-label class=font-semibold></p>
+<p id=employee-email class=text-base></p>
+<p id=employee-phone class="text-base text-text-muted dark:text-text-muted-dark"></p>
+</div>
+</section>
+<section class=mt-8>
+<h3 id=kpi-dashboard-title class="text-2xl font-bold mb-4"></h3>
+<div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 md:gap-6">
+</div>
+</section>
+<section class=mt-8>
+<h3 id=visualizations-title class="text-2xl font-bold mb-4"></h3>
+<div class="grid grid-cols-1 lg:grid-cols-5 gap-6">
+<div class="report-section fade-in fade-in-delay-3 lg:col-span-3 bg-card-bg dark:bg-card-bg-dark p-6 rounded-xl shadow-soft">
+<h4 id=experience-breakdown-chart-title class="text-lg font-semibold mb-4"></h4>
+<div class=h-80><canvas id=experienceBreakdownChart></canvas></div>
+</div>
+<div class="report-section fade-in fade-in-delay-4 lg:col-span-2 bg-card-bg dark:bg-card-bg-dark p-6 rounded-xl shadow-soft">
+<h4 id=skill-distribution-chart-title class="text-lg font-semibold mb-4"></h4>
+<div class="h-80 flex items-center justify-center"><canvas id=skillDistributionChart></canvas></div>
+</div>
+<div class="report-section fade-in fade-in-delay-5 lg:col-span-5 bg-card-bg dark:bg-card-bg-dark p-6 rounded-xl shadow-soft mt-6">
+<h4 id=career-progression-chart-title class="text-lg font-semibold mb-4"></h4>
+<div class=h-80><canvas id=careerProgressionChart></canvas></div>
+</div>
+</div>
+</section>
+<section class="report-section fade-in fade-in-delay-5 mt-8 bg-card-bg dark:bg-card-bg-dark p-6 rounded-xl shadow-soft">
+<div class="flex flex-col md:flex-row justify-between items-center mb-4 gap-4">
+<h3 id=activities-title class="text-2xl font-bold"></h3>
+</div>
+<div class=overflow-x-auto>
+<table class="w-full text-sm text-left rtl:text-right text-text-muted dark:text-text-muted-dark">
+<thead class="text-xs uppercase bg-gray-50 dark:bg-gray-700"><tr></tr></thead>
+<tbody id=activities-table-body></tbody>
+</table>
+</div>
+</section>
+<section class="report-section fade-in fade-in-delay-5 mt-8 bg-card-bg dark:bg-card-bg-dark p-6 rounded-xl shadow-soft">
+<h3 id=insights-title class="text-2xl font-bold mb-4"></h3>
+<div class=space-y-6>
+<div>
+<h4 id=insights-summary-title class="text-lg font-semibold text-primary mb-2"></h4>
+<p id=insights-summary-content class="text-text-muted dark:text-text-muted-dark leading-relaxed"></p>
+</div>
+<div>
+<h4 id=insights-vision-title class="text-lg font-semibold text-primary mb-2"></h4>
+<p id=insights-vision-content class="text-text-muted dark:text-text-muted-dark leading-relaxed"></p>
+</div>
+<div>
+<h4 id=insights-skills-title class="text-lg font-semibold text-primary mb-2"></h4>
+<div id=insights-skills-content class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-8 text-text-muted dark:text-text-muted-dark">
+</div>
+</div>
+</div>
+</section>
+<section id=qr-code-section class="report-section fade-in fade-in-delay-5 mt-8 bg-card-bg dark:bg-card-bg-dark p-6 rounded-xl shadow-soft">
+<div class="flex flex-col md:flex-row items-center gap-6">
+<img id=qr-code-img src="" class="w-32 h-32 rounded-lg shadow-sm flex-shrink-0" alt="QR Code">
+<div class="text-center md:text-start rtl:md:text-right">
+<h4 id=qr-section-title class="text-lg font-semibold text-primary mb-2"></h4>
+<p id=qr-code-caption class="text-text-muted dark:text-text-muted-dark leading-relaxed"></p>
+</div>
+</div>
+</section>
+<section id=strengths-section class="report-section fade-in fade-in-delay-5 mt-8 bg-card-bg dark:bg-card-bg-dark p-6 rounded-xl shadow-soft">
+<div class=space-y-6>
+<div>
+<h4 id=strengths-title class="text-lg font-semibold text-primary mb-3"></h4>
+<ul id=strengths-list class="space-y-2 text-text-muted dark:text-text-muted-dark leading-relaxed"></ul>
+</div>
+<div>
+<h4 id=value-title class="text-lg font-semibold text-primary mb-2"></h4>
+<p id=value-content class="text-text-muted dark:text-text-muted-dark leading-relaxed"></p>
+</div>
+</div>
+</section>
+</main>
+<footer class="text-center text-xs text-text-muted dark:text-text-muted-dark mt-8 no-print">
+<p id=footer-text></p>
+</footer>
+</div>
+<script>document.addEventListener("DOMContentLoaded",(()=>{const e={personalInfo:{fullName:{ar:"عبدالرحمن جمال بكر",en:"Abdulrahman Jamal Bakr"},jobTitle:{ar:"مدير تسويق ومبيعات عقاري",en:"Real Estate Marketing & Sales Manager"},department:{ar:"التسويق وتطوير الأعمال",en:"Marketing & Business Development"},nationality:{ar:"سعودي",en:"Saudi"},email:"meyou197090@gmail.com",phone:"0566654503 / 0569833906",photoUrl:"https://wsrv.nl/?url=i.postimg.cc/ZK0P235K/image.jpg&w=400&h=400&fit=cover"},coreCompetencies:[{id:"experience",label:{ar:"سنوات الخبرة",en:"Years of Experience"},value:"7+",format:"string"},{id:"qualification",label:{ar:"المؤهل الأكاديمي",en:"Academic Qualification"},value:"MBA",format:"string"},{id:"project_mgmt",label:{ar:"إدارة المشاريع",en:"Project Management"},value:{ar:"البيع عالخارطة",en:"Off-plan Sales"},format:"string"},{id:"leadership",label:{ar:"قيادة الفرق",en:"Team Leadership"},value:{ar:"3+ فرق",en:"3+ Teams"},format:"string"},{id:"relations",label:{ar:"علاقات الملاك والعملاء",en:"Owner & Client Relations"},value:{ar:"إدارة متكاملة",en:"Integrated Management"},format:"string"},{id:"finance",label:{ar:"الجهات التمويلية",en:"Financing Entities"},value:{ar:"تنسيق وتفاوض",en:"Coordination & Negotiation"},format:"string"}],charts:{experienceBreakdown:{labels:{ar:[["التفاوض وإغلاق","الصفقات"],"التسويق العقاري","إدارة علاقات العملاء","تنسيق التمويل","التحليل السوقي"],en:[["Negotiation &","Closing"],"Real Estate Marketing","CRM","Financing Coordination","Market Analysis"]},data:[98,97,96,95,94]},skillDistribution:{labels:{ar:["تسويق ميداني","عناية الملاك","خدمة العملاء","تنسيق تمويل","استشارات مبيعات"],en:["Field Marketing","Owner Care","Customer Service","Financing Coordination","Sales Consulting"]},data:[40,25,15,10,10],colors:["#1d4ed8","#16a34a","#f59e0b","#ef4444","#6b7280"]},careerProgression:{labels:{ar:[["سبتمبر 2018 -","بداية إدارية"],["أكتوبر 2020 -","تعدد مهام"],"2022 - ماجستير أعمال",["فبراير 2025 -","تخصص مبيعات"],["الآن -","خبرة موسعة"]],en:[["Sep 2018 -","Admin Start"],["Oct 2020 -","Multi-role Mgmt"],"2022 - MBA",["Feb 2025 -","Sales Specialization"],["Now -","Expanded Expertise"]]},data:[50,70,90,95,98]}},professionalExperience:[{company:{ar:"شركة ليدار العقارية",en:"Ledar Real Estate Co."},period:{start:{ar:"فبراير 2025",en:"Feb 2025"},end:{ar:"حتى الآن",en:"Present"}},roles:[{title:{ar:"استشاري مبيعات",en:"Sales Consultant"},tasks:{ar:"تحليل احتياجات العملاء وتقديم حلول عقارية مناسبة، تنفيذ العروض التقديمية، ومتابعة كاملة لعملية البيع حتى الإغلاق.",en:"Analyzing client needs and providing suitable real estate solutions, conducting presentations, and full follow-up of the sales process until closing."}}]},{company:{ar:"شركة تيم 3 العقارية",en:"Team 3 Real Estate Co."},period:{start:{ar:"أكتوبر 2020",en:"Oct 2020"},end:{ar:"يناير 2025",en:"Jan 2025"}},roles:[{title:{ar:"مدير التسويق الميداني",en:"Field Marketing Manager"},tasks:{ar:"تطوير وتنفيذ خطط تسويق ميدانية، إجراء تحليلات سوقية، قيادة وتنظيم حملات تسويقية وإدارة الميزانيات.",en:"Developed and executed field marketing plans, conducted market analysis, led and organized marketing campaigns, and managed budgets."}},{title:{ar:"مدير عناية الملاك",en:"Owner Care Manager"},tasks:{ar:"إدارة علاقات الملاك وضمان تقديم دعم شامل، حل المشكلات والشكاوى، تطوير سياسات لتحسين تجربة الملاك.",en:"Managed owner relations ensuring comprehensive support, resolved issues and complaints, and developed policies to enhance the owner experience."}},{title:{ar:"مدير خدمة العملاء",en:"Customer Service Manager"},tasks:{ar:"الإشراف على فريق خدمة العملاء وتوجيههم، تطوير وتطبيق إجراءات عمل لتحسين جودة الخدمة.",en:"Supervised and guided the customer service team, and developed and implemented procedures to improve service quality."}},{title:{ar:"مسؤول الجهات التمويلية",en:"Financing Entities Officer"},tasks:{ar:'التنسيق والتفاوض مع الجهات التمويلية، الإشراف على عمليات التمويل لمشاريع البيع على الخارطة (مثل "مدينة الورد").',en:'Coordinated and negotiated with financing entities, supervised financing operations for off-plan sales projects (e.g., "Madinat Al Ward").'}}]},{company:{ar:"شركة أحمد العبيكان للاستثمار والتطوير العقاري",en:"Ahmed Al Obaikan for Real Estate Investment & Development"},period:{start:{ar:"سبتمبر 2018",en:"Sep 2018"},end:{ar:"سبتمبر 2020",en:"Sep 2020"}},roles:[{title:{ar:"إداري",en:"Administrative Officer"},tasks:{ar:"تنفيذ المهام الإدارية اليومية، التنسيق بين الأقسام، إعداد التقارير، وإدارة العمليات المكتبية لدعم فريق العمل.",en:"Executing daily administrative tasks, coordinating between departments, preparing reports, and managing office operations to support the team."}}]}],summaryAndSkills:{summary:{ar:"مدير تسويق عقاري بخبرة تتجاوز سبع سنوات في القطاع العقاري، مع سجلٍّ مهني يضمّ مسؤوليات إدارية متقدّمة في قطاعات متعددة. حاصل على ماجستير مهني في إدارة الأعمال (2022)، ومتخصص في بناء الاستراتيجيات التسويقية، تحليل الأسواق، وتعزيز علاقات الملاك والعملاء. متمرّس في قيادة فرق متعددة التخصصات، والتفاوض مع الجهات التمويلية والحكومية، والتعامل باحترافية مع مختلف شرائح المجتمع لتحقيق نموٍّ مستدام وتعزيز ولاء العملاء. بارع في توظيف التقنيات الحديثة وتحويل التحديات إلى فرص ترتقي بكفاءة العمليات وترسّخ المكانة التنافسية للمؤسسة.",en:"Real estate marketing manager with over seven years of experience, holding a professional record of advanced managerial responsibilities in diverse sectors. With a Professional Master's in Business Administration (2022), specializes in building marketing strategies, market analysis, and strengthening owner & client relations. Experienced in leading multi-disciplinary teams, negotiating with financing and governmental entities, and engaging diverse community segments to achieve sustainable growth and customer loyalty. Adept at leveraging modern technologies and transforming challenges into opportunities to enhance operational efficiency and solidify the organization's competitive position."},vision:{ar:"قيادي استراتيجي يركز على بناء وتطوير فرق عمل عالية الأداء، مع القدرة على تحليل التحديات وتحويلها إلى فرص نمو. يسعى لتطبيق أفضل الممارسات في إدارة علاقات العملاء والملاك لتحقيق أعلى مستويات الرضا والولاء، مما يدعم النمو المستدام للشركة ويعزز مكانتها في السوق العقاري.",en:"A strategic leader focused on building and developing high-performance teams, with the ability to analyze challenges and turn them into growth opportunities. Aims to implement best practices in customer and owner relationship management to achieve the highest levels of satisfaction and loyalty, supporting the company's sustainable growth and strengthening its market position."},skillsAndCourses:[{category:{ar:"دورات عقارية متخصصة",en:"Specialized Real Estate Courses"},items:{ar:["التثمين العقاري","التسويق العقاري","التطوير العقاري","التمويل العقاري","الوعي بالسوق العقاري","اتحاد الملاك","صيانة المرافق"],en:["Real Estate Appraisal","Real Estate Marketing","Real Estate Development","Real Estate Finance","Market Awareness","Owners Union","Facilities Maintenance"]}},{category:{ar:"دورات إدارية وتطويرية",en:"Management & Development Courses"},items:{ar:["ماجستير إدارة الأعمال","إدارة الأداء الوظيفي","التخطيط التنفيذي","مهارات التفاوض الفعال","إدارة التغيير","6 سيجما (الحزام الأصفر)","الإدارة الرشيقة"],en:["MBA","Performance Management","Executive Planning","Effective Negotiation","Change Management","6 Sigma (Yellow Belt)","Agile Management"]}},{category:{ar:"دورات عامة وداعمة",en:"General & Supporting Courses"},items:{ar:["خدمة العملاء","إدارة المرافق","إعداد التقارير","الانتماء والولاء المؤسسي","مهارات بناء فريق العمل","إدارة الوقت","التسويق الإلكتروني"],en:["Customer Service","Facility Management","Report Writing","Corporate Loyalty","Team Building Skills","Time Management","E-Marketing"]}}]},strengthsAndValue:{strengthsTitle:{ar:"نقاط القوة الرئيسية",en:"Key Strengths"},strengths:[{ar:"تطوير وتنفيذ استراتيجيات تسويق عقاري متكاملة.",en:"Developing and implementing integrated real estate marketing strategies."},{ar:"قيادة فرق العمل وتحفيزها لتحقيق الأهداف البيعية.",en:"Leading and motivating teams to achieve sales targets."},{ar:"بناء وإدارة علاقات طويلة الأمد مع العملاء والملاك والجهات التمويلية.",en:"Building and managing long-term relationships with clients, owners, and financing entities."},{ar:"مهارات تفاوض عالية لإغلاق الصفقات بنجاح.",en:"High-level negotiation skills to successfully close deals."},{ar:"تحليل دقيق للسوق لاتخاذ قرارات استراتيجية مدروسة.",en:"Precise market analysis for making informed strategic decisions."}],valueTitle:{ar:"القيمة المضافة",en:"Added Value"},valueText:{ar:"تقديم قيمة مضافة من خلال دمج الخبرة الميدانية مع المعرفة الأكاديمية (ماجستير إدارة الأعمال) لتحقيق نمو مستدام وزيادة الحصة السوقية للشركة، مع ضمان أعلى مستويات الرضا للعملاء والملاك.",en:"Providing added value by integrating field experience with academic knowledge (MBA) to achieve sustainable growth and increase the company's market share, while ensuring the highest levels of client and owner satisfaction."}},qrCode:{imageUrl:"https://i.postimg.cc/W3wW6YQs/4096.png",title:{ar:"عرض تقديمي لأحد المشاريع",en:"Presentation of a Key Project"},caption:{ar:"امسح الرمز لمشاهدة لقطات مختارة من عرضي لأحد المشاريع ضمن مشاركتي في أكبر منتدى عقاري بمدينة الطائف.",en:"Scan the code to watch selected footage from my presentation of a project during the largest real estate forum in Taif."}}},t={ar:{reportTitleHeader:"الملف التعريفي المهني",contactInfoLabel:"معلومات التواصل",titleDeptSeparator:" | ",kpiDashboardTitle:"الكفاءات الأساسية",visualizationsTitle:"نظرة تحليلية على الخبرات والمهارات",experienceBreakdownChartTitle:"مجالات الخبرة الأساسية (تقييم ذاتي)",skillDistributionChartTitle:"توزيع الخبرات المهنية",careerProgressionChartTitle:"مسار التطور المهني",careerProgressionYLabel:"مستوى الخبرة (تقديري)",activitiesTitle:"الخبرة العملية",activitiesTableHeaders:{period:"الفترة",company:"الشركة",role:"المنصب",tasks:"أبرز المهام"},insightsTitle:"الملخص والمهارات",insightsSummaryTitle:"📄 الملخص المهني",insightsVisionTitle:"👁️ الرؤية القيادية والاستراتيجية",insightsSkillsTitle:"💡 المهارات والدورات التدريبية",langToggle:"English",printBtnLabel:"طباعة / تصدير PDF",footerText:`تم إنشاء هذا الملف التعريفي في ${(new Date).toLocaleDateString("ar-SA-u-ca-gregory",{year:"numeric",month:"long",day:"numeric"})}`},en:{reportTitleHeader:"Professional Profile",contactInfoLabel:"Contact Information",titleDeptSeparator:" | ",kpiDashboardTitle:"Core Competencies",visualizationsTitle:"Experience & Skills Analytics",experienceBreakdownChartTitle:"Core Experience Areas (Self-Assessment)",skillDistributionChartTitle:"Professional Experience Distribution",careerProgressionChartTitle:"Career Progression Path",careerProgressionYLabel:"Expertise Level (Est.)",activitiesTitle:"Professional Experience",activitiesTableHeaders:{period:"Period",company:"Company",role:"Role",tasks:"Key Responsibilities"},insightsTitle:"Summary & Skills",insightsSummaryTitle:"📄 Professional Summary",insightsVisionTitle:"👁️ Leadership & Strategic Vision",insightsSkillsTitle:"💡 Skills & Training Courses",langToggle:"العربية",printBtnLabel:"Print / Export PDF",footerText:`Profile generated on ${(new Date).toLocaleDateString("en-US",{year:"numeric",month:"long",day:"numeric"})}`}};let n={lang:"ar",theme:localStorage.getItem("theme")||"light"};const a={html:document.documentElement,themeToggleBtn:document.getElementById("theme-toggle-btn"),themeIconLight:document.getElementById("theme-icon-light"),themeIconDark:document.getElementById("theme-icon-dark"),langToggleBtn:document.getElementById("lang-toggle-btn"),printBtn:document.getElementById("print-btn"),activitiesTableBody:document.getElementById("activities-table-body"),activitiesThead:document.querySelector("thead tr")};let i={};const r=(e,a)=>a?a[e]?a[e][n.lang]||a[e]:e:t[n.lang][e]||e,o=()=>{Chart.defaults.font.family="'Cairo', sans-serif",Chart.defaults.color="dark"===n.theme?"#9ca3af":"#6b7280",Object.values(i).forEach((e=>e.destroy()));const t=e=>({responsive:!0,maintainAspectRatio:!1,plugins:{legend:{position:"bottom",rtl:e},tooltip:{rtl:e}}}),a=document.getElementById("experienceBreakdownChart").getContext("2d");i.experience=new Chart(a,{type:"bar",data:{labels:e.charts.experienceBreakdown.labels[n.lang],datasets:[{label:r("experienceBreakdownChartTitle"),data:e.charts.experienceBreakdown.data,backgroundColor:"#1d4ed8",borderRadius:4}]},options:{...t("ar"===n.lang),indexAxis:"y",scales:{y:{grid:{display:!1}},x:{beginAtZero:!0,max:100,grid:{color:"dark"===n.theme?"#374151":"#e5e7eb"}}},plugins:{legend:{display:!1},tooltip:{rtl:"ar"===n.lang}}}});const o=document.getElementById("skillDistributionChart").getContext("2d");i.skill=new Chart(o,{type:"doughnut",data:{labels:e.charts.skillDistribution.labels[n.lang],datasets:[{data:e.charts.skillDistribution.data,backgroundColor:e.charts.skillDistribution.colors,borderColor:"dark"===n.theme?"#1f2937":"#ffffff",borderWidth:4}]},options:{...t("ar"===n.lang),cutout:"70%",plugins:{legend:{position:"bottom",rtl:"ar"===n.lang,labels:{boxWidth:15,padding:15}}}}});const l=document.getElementById("careerProgressionChart").getContext("2d");i.progression=new Chart(l,{type:"line",data:{labels:e.charts.careerProgression.labels[n.lang],datasets:[{label:r("careerProgressionYLabel"),data:e.charts.careerProgression.data,borderColor:"#1d4ed8",backgroundColor:"rgba(29, 78, 216, 0.1)",fill:!0,tension:.4}]},options:{...t("ar"===n.lang),scales:{y:{beginAtZero:!1,grid:{color:"dark"===n.theme?"#374151":"#e5e7eb"},title:{display:!0,text:r("careerProgressionYLabel")}},x:{grid:{display:!1}}},plugins:{legend:{display:!1},tooltip:{rtl:"ar"===n.lang}}}})},l=()=>{a.html.lang=n.lang,a.html.dir="ar"===n.lang?"rtl":"ltr",a.langToggleBtn.textContent=r("langToggle"),a.printBtn.setAttribute("aria-label",r("printBtnLabel")),document.getElementById("report-title-header").textContent=r("reportTitleHeader"),document.getElementById("employee-photo").src=e.personalInfo.photoUrl,document.getElementById("employee-name").textContent=e.personalInfo.fullName[n.lang],document.getElementById("employee-title-dept").textContent=`${e.personalInfo.jobTitle[n.lang]}${r("titleDeptSeparator")}${e.personalInfo.department[n.lang]}`,document.getElementById("employee-nationality").textContent=e.personalInfo.nationality[n.lang],document.getElementById("contact-info-label").textContent=r("contactInfoLabel"),document.getElementById("employee-email").textContent=e.personalInfo.email,document.getElementById("employee-phone").textContent=e.personalInfo.phone,(()=>{const t=document.querySelector(".grid.grid-cols-2.md\\:grid-cols-3.lg\\:grid-cols-6");t.innerHTML="",e.coreCompetencies.forEach(((e,a)=>{const i=document.createElement("div");i.className=`report-section fade-in fade-in-delay-${a} bg-card-bg dark:bg-card-bg-dark p-4 rounded-xl shadow-soft text-center flex flex-col justify-center`;const r=document.createElement("p");r.className="text-sm text-text-muted dark:text-text-muted-dark mb-2",r.textContent=e.label[n.lang];const o=document.createElement("p");o.className="text-2xl md:text-3xl font-bold text-primary",o.id=`kpi-value-${e.id}`;const l="object"==typeof e.value&&null!==e.value?e.value[n.lang]:e.value;o.textContent=l,i.appendChild(r),i.appendChild(o),t.appendChild(i)}))})(),document.getElementById("kpi-dashboard-title").textContent=r("kpiDashboardTitle"),document.getElementById("visualizations-title").textContent=r("visualizationsTitle"),document.getElementById("experience-breakdown-chart-title").textContent=r("experienceBreakdownChartTitle"),document.getElementById("skill-distribution-chart-title").textContent=r("skillDistributionChartTitle"),document.getElementById("career-progression-chart-title").textContent=r("careerProgressionChartTitle"),document.getElementById("activities-title").textContent=r("activitiesTitle"),document.getElementById("footer-text").textContent=r("footerText"),(()=>{const t=r("activitiesTableHeaders");a.activitiesThead.innerHTML="",Object.values(t).forEach((e=>{const t=document.createElement("th");t.scope="col",t.className="px-6 py-3",t.textContent=e,a.activitiesThead.appendChild(t)})),a.activitiesTableBody.innerHTML="",e.professionalExperience.forEach((e=>{e.roles.forEach(((t,i)=>{const r=document.createElement("tr");r.className="bg-card-bg dark:bg-card-bg-dark border-b dark:border-gray-700";let o="",l="";0===i&&(o=`<td class="px-6 py-4 font-semibold align-top whitespace-nowrap" rowspan="${e.roles.length}">${e.period.start[n.lang]} – ${e.period.end[n.lang]}</td>`,l=`<td class="px-6 py-4 font-semibold align-top" rowspan="${e.roles.length}">${e.company[n.lang]}</td>`),r.innerHTML=`\n                    ${o}\n                    ${l}\n                    <td class="px-6 py-4 font-medium">${t.title[n.lang]}</td>\n                    <td class="px-6 py-4">${t.tasks[n.lang]}</td>`,a.activitiesTableBody.appendChild(r)}))}))})(),(()=>{document.getElementById("insights-title").textContent=r("insightsTitle"),document.getElementById("insights-summary-title").textContent=r("insightsSummaryTitle"),document.getElementById("insights-summary-content").textContent=e.summaryAndSkills.summary[n.lang],document.getElementById("insights-vision-title").textContent=r("insightsVisionTitle"),document.getElementById("insights-vision-content").textContent=e.summaryAndSkills.vision[n.lang],document.getElementById("insights-skills-title").textContent=r("insightsSkillsTitle");const t=document.getElementById("insights-skills-content");t.innerHTML="",e.summaryAndSkills.skillsAndCourses.forEach((e=>{const a=document.createElement("div"),i=document.createElement("h5");i.className="font-bold mb-2 text-text-main dark:text-text-main-dark",i.textContent=e.category[n.lang];const r=document.createElement("ul");r.className="space-y-1 skill-list",e.items[n.lang].forEach((e=>{const t=document.createElement("li");t.textContent=e,r.appendChild(t)})),a.appendChild(i),a.appendChild(r),t.appendChild(a)}))})(),(()=>{const t=e.qrCode;document.getElementById("qr-code-img").src=t.imageUrl,document.getElementById("qr-section-title").textContent=t.title[n.lang],document.getElementById("qr-code-caption").textContent=t.caption[n.lang]})(),(()=>{const t=e.strengthsAndValue;document.getElementById("strengths-title").textContent=t.strengthsTitle[n.lang];const a=document.getElementById("strengths-list");a.innerHTML="",a.className="ar"===n.lang?"space-y-2 strengths-list":"space-y-2 list-disc list-inside",t.strengths.forEach((e=>{const t=document.createElement("li");t.textContent=e[n.lang],"ar"===n.lang&&(t.style.paddingRight="1.5rem"),a.appendChild(t)})),document.getElementById("value-title").textContent=t.valueTitle[n.lang],document.getElementById("value-content").textContent=t.valueText[n.lang]})(),o()},s=()=>{"dark"===n.theme?(a.html.classList.add("dark"),a.themeIconLight.classList.add("hidden"),a.themeIconDark.classList.remove("hidden")):(a.html.classList.remove("dark"),a.themeIconLight.classList.remove("hidden"),a.themeIconDark.classList.add("hidden"))};a.themeToggleBtn.addEventListener("click",(()=>{n.theme="light"===n.theme?"dark":"light",localStorage.setItem("theme",n.theme),s(),o()})),a.langToggleBtn.addEventListener("click",(()=>{n.lang="ar"===n.lang?"en":"ar",l()})),a.printBtn.addEventListener("click",(()=>{window.print()})),s(),l()}))</script>
+<script>document.addEventListener("contextmenu",(function(e){e.preventDefault()})),document.onkeydown=function(e){return 123!=event.keyCode&&((!e.ctrlKey||!e.shiftKey||e.keyCode!="I".charCodeAt(0))&&((!e.ctrlKey||!e.shiftKey||e.keyCode!="C".charCodeAt(0))&&((!e.ctrlKey||!e.shiftKey||e.keyCode!="J".charCodeAt(0))&&((!e.ctrlKey||e.keyCode!="U".charCodeAt(0))&&void 0))))}</script>
 </body>
 </html>
